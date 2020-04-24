@@ -1,0 +1,13 @@
+.buttons-pdf {
+    background-color: #e74c3c!important;
+    margin-right: 10px!important;
+}
+
+.buttons-pdf:hover {
+    background-color: #dc3545!important;
+}
+
+.form-horizontal label {
+    font-weight: 600;
+    margin-top: 10px!important;
+}

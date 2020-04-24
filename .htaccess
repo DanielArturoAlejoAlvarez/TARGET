@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php index.html 
+RewriteEngine on 
+RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /TARGET/index.php/$1 [L,QSA]
